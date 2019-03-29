@@ -1,10 +1,9 @@
 package com.tests.whentouseinterface.entities.electronics.mobilePhones.samsungs;
 
 import com.tests.whentouseinterface.entities.electronics.mobilePhones.Samsung;
-import com.tests.whentouseinterface.interfaces.ISamsung;
 import com.tests.whentouseinterface.interfaces.ITransportable;
 
-public class S8 extends Samsung implements ITransportable, ISamsung {
+public class S8 extends Samsung implements ITransportable {
 
   private Double price;
   private Double weight;
